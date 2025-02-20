@@ -13,7 +13,7 @@
     },
     "integration_category": "Data Analytics & Visualization",
     "integration_type": "interval",
-    "is_active": false,
+    "is_active": true,
     "output": [
       {
         "label": "Telex Channel",
@@ -37,16 +37,16 @@
         "label": "interval",
         "type": "text",
         "required": true,
-        "default": "* * * * *"
+        "default": "*/5 * * * *"
       },
       {
         "label": "API Endpoint",
         "type": "text",
         "required": true,
-        "default": "https://a66e-105-161-1-114.ngrok-free.app /nairobi-flights"
+        "default": "https://a66e-105-161-1-114.ngrok-free.app/nairobi-flights"
       }
     ],
-    "tick_url": "https://a66e-105-161-1-114.ngrok-free.app /tick",
-    "target_url": "https://a66e-105-161-1-114.ngrok-free.app /nairobi-flights"
+    "tick_url": "https://a66e-105-161-1-114.ngrok-free.app/tick",
+    "target_url": "https://a66e-105-161-1-114.ngrok-free.app/nairobi-flights"
   }
 }
