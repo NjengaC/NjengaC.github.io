@@ -1,0 +1,7 @@
+{
+  "integration_name": "TelexDemo",
+  "interval_seconds": 60,
+  "target_url": "https://e2f3-102-166-172-166.ngrok-free.app",
+  "channel": "demo_channel",
+  "message_template": "Hello, telex! The current time is {timestamp}."
+}
