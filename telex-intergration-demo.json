@@ -6,7 +6,7 @@
     },
     "descriptions": {
       "app_name": "Telex Flask Demo Integration",
-      "app_description": "Interval integration demo that calls a Flask app every minute and sends messages to a Telex channel.",
+      "app_description": "Interval integration that calls a Flask app every minute and sends messages to a Telex channel.",
       "app_url": "https://e2f3-102-166-172-166.ngrok-free.app",
       "app_logo": "https://example.com/logo.png",
       "background_color": "#123456"
@@ -15,7 +15,7 @@
     "is_active": true,
     "output": [
       {
-        "label": "demo_channel",
+        "label": "check_channel",
         "value": true
       }
     ],
@@ -27,7 +27,7 @@
     "permissions": {
       "monitoring_user": {
         "always_online": true,
-        "display_name": "Demo Monitor"
+        "display_name": "my Monitor"
       }
     },
     "settings": [
@@ -42,14 +42,14 @@
         "label": "Webhook URL",
         "type": "text",
         "required": true,
-        "default": "https://ping.telex.im/v1/webhooks/your-webhook-id",
+        "default": "https://ping.telex.im/v1/webhooks/019522b7-b965-73ab-a8c7-ab3fc66ca1b5",
         "description": "URL to which webhook payloads are sent."
       },
       {
         "label": "Event Name",
         "type": "text",
         "required": true,
-        "default": "flask_demo",
+        "default": "flask_popo",
         "description": "Event name to be sent in the webhook payload."
       },
       {
@@ -63,7 +63,7 @@
         "label": "Username",
         "type": "text",
         "required": true,
-        "default": "demo_user",
+        "default": "default_user",
         "description": "Username to be included in the webhook payload."
       }
     ],
