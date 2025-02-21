@@ -46,7 +46,7 @@
         "default": "https://a66e-105-161-1-114.ngrok-free.app/nairobi-flights"
       }
     ],
-    "tick_url": "https://a66e-105-161-1-114.ngrok-free.app/tick",
+    "tick_url": "https://a66e-105-161-1-114.ngrok-free.app",
     "target_url": "https://a66e-105-161-1-114.ngrok-free.app/nairobi-flights"
   }
 }
