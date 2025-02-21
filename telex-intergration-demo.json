@@ -11,6 +11,7 @@
       "app_logo": "https://example.com/logo.png",
       "background_color": "#123456"
     },
+    "integration_category": "Monitoring",
     "integration_type": "interval",
     "is_active": true,
     "output": [
