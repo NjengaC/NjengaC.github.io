@@ -7,7 +7,7 @@
     "descriptions": {
       "app_name": "Nairobi Flight Tracker",
       "app_description": "Fetches and displays flights departing from Nairobi with a summary of statuses.",
-      "app_logo": "https://example.com/logo.png",
+      "app_logo": "https://njengac.github.io/sparrowlogo.svg",
       "app_url": "https://a66e-105-161-1-114.ngrok-free.app/nairobi-flights",
       "background_color": "#1E90FF"
     },
