@@ -38,12 +38,12 @@
         "label": "API Endpoint",
         "type": "text",
         "required": true,
-        "default": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/data" // Stable URL for data fetching
+        "default": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/data"
       }
     ],
-    "tick_url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/tick", // Stable URL to trigger update
+    "tick_url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/tick",
     "target_url": {
-      "url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/webhook", // Stable URL for Telex webhook
+      "url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/webhook",
       "type": "webhook"
     }
   }
