@@ -8,18 +8,13 @@
       "app_name": "Nairobi Flight Tracker",
       "app_description": "Fetches and displays flights departing from Nairobi with a summary of statuses.",
       "app_logo": "https://njengac.github.io/sparrowlogo.svg",
-      "app_url": "https://4f28-154-122-65-71.ngrok-free.app/nairobi-flights",
+      "app_url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights",
       "background_color": "#1E90FF"
     },
     "integration_category": "Data Analytics & Visualization",
     "integration_type": "interval",
     "is_active": true,
-    "output": [
-      {
-        "label": "Telex Channel",
-        "value": true
-      }
-    ],
+    "output": [],
     "key_features": [
       "Real-time flight data fetching",
       "Filters flights departing from Nairobi",
@@ -37,16 +32,19 @@
         "label": "interval",
         "type": "text",
         "required": true,
-        "default": "*/5 * * * *"
+        "default": "0 * * * *"
       },
       {
         "label": "API Endpoint",
         "type": "text",
         "required": true,
-        "default": "https://4f28-154-122-65-71.ngrok-free.app/nairobi-flights"
+        "default": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/data" // Stable URL for data fetching
       }
     ],
-    "tick_url": "https://a66e-105-161-1-114.ngrok-free.app/tick",
-    "target_url": "https://4f28-154-122-65-71.ngrok-free.app/nairobi-flights"
+    "tick_url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/tick", // Stable URL to trigger update
+    "target_url": {
+      "url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/webhook", // Stable URL for Telex webhook
+      "type": "webhook"
+    }
   }
 }
