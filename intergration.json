@@ -8,7 +8,7 @@
       "app_name": "Nairobi Flight Tracker",
       "app_description": "Fetches and displays flights departing from Nairobi with a summary of statuses.",
       "app_logo": "https://njengac.github.io/sparrowlogo.svg",
-      "app_url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights",
+      "app_url": "https://c5d2-102-167-187-161.ngrok-free.app/nairobi-flights",
       "background_color": "#1E90FF"
     },
     "integration_category": "Data Analytics & Visualization",
@@ -38,12 +38,12 @@
         "label": "API Endpoint",
         "type": "text",
         "required": true,
-        "default": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/data"
+        "default": "https://c5d2-102-167-187-161.ngrok-free.app/nairobi-flights/data"
       }
     ],
-    "tick_url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/tick",
+    "tick_url": "https://c5d2-102-167-187-161.ngrok-free.app/nairobi-flights/tick",
     "target_url": {
-      "url": "https://17e0-102-166-140-255.ngrok-free.app/nairobi-flights/webhook",
+      "url": "https://c5d2-102-167-187-161.ngrok-free.app/nairobi-flights/webhook",
       "type": "webhook"
     }
   }
