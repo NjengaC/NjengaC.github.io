@@ -36,7 +36,7 @@
         "label": "interval",
         "type": "text",
         "required": true,
-        "default": "*/1 * * * *",
+        "default": "*/9 * * * *",
         "description": "Cron expression defining how often the integration runs (every minute)."
       },
       {
